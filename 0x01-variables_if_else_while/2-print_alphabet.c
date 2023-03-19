@@ -1,19 +1,45 @@
 #include <stdio.h>
 
 /**
- * main - pogram prints alphabets in lower cases
+ * main - print alphabets in lowercase
  *
- * Return: Answer 0 (Success)
+ * Return: 0 (success)
  */
+
 int main(void)
 {
-	char c = 'a';
+	char i;
 
-	while
-		(c <= 'z');
-	{
-		putchar(c);
-	}
+	for (i = 'a'; i <= 'z' ; i++)
+		putchar(i);
 	putchar('\n');
 	return (0);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
