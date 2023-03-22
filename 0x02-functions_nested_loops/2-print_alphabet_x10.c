@@ -3,18 +3,23 @@
 /**
  * print_alphabet_x10 - print alphabet in lowercase 10 times
  *
- * Return: 0
+ * Return: 0 (success)
  */
 
 void print_alphabet_x10(void)
 {
+	int i = 0;
 	char c;
-	int i;
 
-	for (i = 0; i < 10; i++)
+	while (i < 10)
 	{
-		for (c = 'a'; c <= 'z'; c++)
+		c = 'a';
+		while (c <= 'z')
+		{
 			_putchar(c);
+			c++;
+		}
+		_putchar('\n');
+		i++;
 	}
-	_putchar('\n');
 }
