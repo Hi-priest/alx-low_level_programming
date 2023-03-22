@@ -2,7 +2,7 @@
 
 /**
  * _abs - computes the absolute value
- * @int: input type
+ * @j: integer checker
  * Return: Always 0 (success)
  */
 
